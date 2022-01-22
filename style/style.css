@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@200&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Merriweather';
+}
+
+#conteiners{
+    display: flex;
+    height: 100%;
+}
+
+#conteiner-esquerda{
+    background-color: #F7FAFC;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#conteiner-esquerda img{
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+}
+
+#conteiner-direita{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos{
+    margin-top: 150px;
+    margin-right: 165px;
+}
+
+.informacoes{
+    margin-left: -25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes input{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    width: 350px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.informacoes input::placeholder{
+    padding-left: 15px;
+}
+
+.informacoes label{
+    margin-top: 30px;
+}
+
+.opcoes{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+
+#lembre{
+    margin-left: 0;
+    color: black;
+}
+
+.opcoes label{
+    margin-left: 100px;
+    color: blue;
+}
+
+.opcoes label:hover{
+    transition: 1.3s;
+    cursor: pointer;
+    color: rgb(63, 67, 100);
+}
+
+.opcoes input{
+    margin-left: -25px;
+    margin-right: 10px;
+}
