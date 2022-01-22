@@ -41,7 +41,7 @@ body{
 }
 
 .titulos{
-    margin-top: 150px;
+    margin-top: 70px;
     margin-right: 165px;
 }
 
@@ -94,4 +94,51 @@ body{
 .opcoes input{
     margin-left: -25px;
     margin-right: 10px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+
+.botoes button{
+    width: 347px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;   
+}
+
+#btn-entrar{
+    background-color: #00BFA6;
+}
+
+#btn-google{
+    background-color: #1A202C;
+}
+
+#btn-google img{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -5px;
+    width: 25px;
+    height: 25px;
+}
+
+#formulario p{
+    margin-top: 80px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+#formulario span{
+    color: blue;
+}
+
+#formulario span, button:hover{
+    cursor: pointer;
 }
